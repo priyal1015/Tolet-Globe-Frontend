@@ -72,8 +72,8 @@ const TopBg = () => {
             alt="Bird 1"
             className={`absolute w-[100px] h-[40px] transform transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-0 translate-x-[250px] translate-y-[190px]"
-                : "opacity-50 translate-x-[-600px] translate-y-[100px]"
+                ? "opacity-0 translate-x-[850px] translate-y-[590px]"
+                : "opacity-50 translate-x-[500px] translate-y-[150px]"
             }`}
           />
           <img
@@ -81,15 +81,15 @@ const TopBg = () => {
             alt="Bird 2"
             className={`absolute w-[100px] h-[40px] transform transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-0 translate-x-[450px] translate-y-[250px]"
-                : "opacity-50 translate-x-[-310px] translate-y-[420px]"
+                ? "opacity-0 translate-x-[950px] translate-y-[250px]"
+                : "opacity-50 translate-x-[-110px] translate-y-[320px]"
             }`}
           />
           {/* Cloud Images */}
           <img
             src={cloud1}
             alt="Cloud 1"
-            className={`absolute opacity-30 w-[100px] h-[40px] transform translate-x-[-260px] translate-y-[45px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute opacity-30 w-[100px] h-[40px] transform translate-x-[260px] translate-y-[45px] transition-all duration-[2s] ease-in-out ${
               isScrolled
                 ? "opacity-0 translate-x-[250px] translate-y-[150px]"
                 : ""
@@ -107,7 +107,7 @@ const TopBg = () => {
           <img
             src={cloud3}
             alt="Cloud 3"
-            className={`absolute opacity-50 w-[120px] h-[40px] transform translate-x-[-520px] translate-y-[430px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute opacity-50 w-[120px] h-[40px] transform translate-x-[800px] translate-y-[30px] transition-all duration-[2s] ease-in-out ${
               isScrolled
                 ? "opacity-0 translate-x-[340px] translate-y-[175px]"
                 : ""
@@ -118,9 +118,9 @@ const TopBg = () => {
           <img
             src={sun}
             alt="Sun"
-            className={`absolute opacity-[0.6] w-[620px] h-[600px] transform translate-x-[-360px] translate-y-[-50px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute opacity-[0.6] w-[620px] h-[600px] transform translate-x-[-360px] translate-y-[-90px] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-[0.06] w-[80px] h-[60px] translate-x-[630px] translate-y-[100px]"
+                ? "opacity-[0.06] w-[80px] h-[60px] translate-x-[630px] translate-y-[150px]"
                 : ""
             }`}
           />
@@ -129,7 +129,7 @@ const TopBg = () => {
           <img
             src={plant1}
             alt="Plant 1"
-            className={`absolute w-[60px] h-[80px] opacity-20 z-0 transform translate-x-[510px] translate-y-[520px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute w-[60px] h-[80px] opacity-20 z-0 transform translate-x-[410px] translate-y-[520px] transition-all duration-[2s] ease-in-out ${
               isScrolled
                 ? "opacity-0 translate-x-[510px] translate-y-[390px]"
                 : ""
@@ -138,7 +138,7 @@ const TopBg = () => {
           <img
             src={plant2}
             alt="Plant 2"
-            className={`absolute w-[70px] h-[90px] opacity-20 z-0 transform translate-x-[208px] translate-y-[590px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute w-[70px] h-[90px] opacity-20 z-0 transform translate-x-[208px] translate-y-[520px] transition-all duration-[2s] ease-in-out ${
               isScrolled
                 ? "opacity-0 translate-x-[207px] translate-y-[390px]"
                 : ""
@@ -188,8 +188,8 @@ const TopBg = () => {
             alt="Wall 1"
             className={`absolute w-[80px] h-[20px] opacity-100 transform rotate-[20deg] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "w-[170px] h-[110px] right-[25.4rem] top-[7rem] rotate-[360deg] translate-x-[1px] translate-y-[1px]"
-                : "translate-x-[-450px] translate-y-[191px]"
+                ? "w-[170px] h-[110px] right-[25.4rem] top-[7rem] rotate-[360deg] translate-x-[10px] translate-y-[1px]"
+                : "translate-x-[-850px] translate-y-[191px]"
             }`}
           />
           <img
@@ -197,8 +197,8 @@ const TopBg = () => {
             alt="Wall 2"
             className={`absolute w-[80px] h-[20px] opacity-100 transform rotate-[30deg] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "w-[160px] h-[180px] right-[18.3rem] top-[1rem] rotate-[360deg] translate-x-[2px] translate-y-[3px]"
-                : "translate-x-[-350px] translate-y-[230px]"
+                ? "w-[160px] h-[180px] right-[18.3rem] top-[1rem] rotate-[360deg] translate-x-[20px] translate-y-[3px]"
+                : "w-[160px] h-[180px] right-[18.3rem] top-[1rem] translate-x-[-300px] translate-y-[230px]"
             }`}
           />
 
@@ -251,9 +251,9 @@ const TopBg = () => {
           <img
             src={frontw6}
             alt="Window 6"
-            className={`absolute z-[1] h-[35px] w-[25px] opacity-[0.06] transform translate-x-[16vw] translate-y-[54vh] transition-all duration-[2s] ease-in-out ${
+            className={`absolute z-[1] h-[35px] w-[25px] opacity-[0.06] transform translate-x-[1vw] translate-y-[54vh] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-0 translate-x-[25.5vw] translate-y-[50vh]"
+                ? "opacity-0 translate-x-[15.5vw] translate-y-[50vh]"
                 : ""
             }`}
           />
@@ -262,18 +262,18 @@ const TopBg = () => {
           <img
             src={gate}
             alt="Gate"
-            className={`absolute h-[80px] w-[30px] transform translate-x-[80px] translate-y-[85vh] transition-all duration-[2s] ease-in-out ${
+            className={`absolute opacity-0 h-[80px] w-[30px] transform translate-x-[80px] translate-y-[105vh] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-0 translate-x-[20px] translate-y-[55vh]"
+                ? "opacity-0 translate-x-[200px] translate-y-[55vh]"
                 : ""
             }`}
           />
           <img
             src={chimney}
             alt="Chimney"
-            className={`absolute h-[25px] w-[25px] opacity-[0.2] transform translate-x-[430px] translate-y-[330px] transition-all duration-[2s] ease-in-out ${
+            className={`absolute h-[25px] w-[25px] opacity-[0.2] transform translate-x-[400px] translate-y-[330px] transition-all duration-[2s] ease-in-out ${
               isScrolled
-                ? "opacity-0 translate-x-[430px] translate-y-[300px]"
+                ? "opacity-0 translate-x-[830px] translate-y-[300px]"
                 : ""
             }`}
           />

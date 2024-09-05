@@ -71,24 +71,26 @@ const BottomImages = () => {
   return (
     <div className="-translate-y-[550px] translate-x-[17rem]">
       <div className="relative bottom-img">
-        <img
-          src={bg1}
-          alt=""
-          className={`absolute opacity-0 transition-all duration-[1s] ease-in-out transform ${
-            isScrolled
-              ? "w-[500px] h-[600px] opacity-[0.2] translate-x-[150%] translate-y-[-130px]"
-              : "translate-x-[560px] translate-y-[-520px]"
-          }`}
-        />
-        <img
-          src={bg2}
-          alt=""
-          className={`absolute opacity-0 transition-all duration-[0.5s] ease-in-out ${
-            isScrolled
-              ? "opacity-[0.2] h-[1200px] w-[1200px] z-[-1] translate-x-[18%] translate-y-[-290px]"
-              : "h-[600px] translate-x-[-600px] translate-y-[-300px]"
-          }`}
-        />
+      <img
+    src={bg1}
+    alt=""
+    className={`absolute opacity-0 transition-all duration-[1s] ease-in-out transform ${
+      isScrolled
+        ? "w-[600px] h-[750px] opacity-[0.2] translate-x-[80%] -translate-y-[18%]"
+        : "w-[600px] h-[750px] translate-x-[560px] translate-y-[-520px]"
+    }`}
+  />
+
+  {/* Background Image 2 */}
+  <img
+    src={bg2}
+    alt=""
+    className={`absolute opacity-0 transition-all duration-[0.5s] ease-in-out ${
+      isScrolled
+        ? "opacity-[0.1] h-[1040px] w-[1050px] z-[-1] translate-x-[20%] -translate-y-[25%]"
+        : "h-[600px] w-[600px] translate-x-[-600px] translate-y-[-300px]"
+    }`}
+  />
 
         {/* ---------- Birds Image ---------- */}
         <img
@@ -96,7 +98,7 @@ const BottomImages = () => {
           alt="Home Img"
           className={`absolute opacity-0 transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[80px] h-[30px] translate-x-[640px] translate-y-[-70px]"
+              ? "opacity-100 w-[80px] h-[30px] translate-x-[540px] translate-y-[-50px]"
               : "translate-x-[-1040px] translate-y-[-250px]"
           }`}
         />
@@ -105,7 +107,7 @@ const BottomImages = () => {
           alt="Home Img"
           className={`absolute opacity-0 transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[80px] h-[30px] translate-x-[940px] translate-y-[-100px]"
+              ? "opacity-100 w-[80px] h-[30px] translate-x-[900px] translate-y-[-100px]"
               : "translate-x-[-700px] translate-y-[72px]"
           }`}
         />
@@ -146,7 +148,7 @@ const BottomImages = () => {
           alt="Home Img"
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-90 w-[80px] h-[60px] translate-x-[870px] translate-y-[-100px]"
+              ? "opacity-90 w-[80px] h-[60px] translate-x-[670px] translate-y-[-100px]"
               : "opacity-[0.3] w-[620px] h-[600px] translate-x-[-860px] translate-y-[-350px]"
           }`}
         />
@@ -157,8 +159,8 @@ const BottomImages = () => {
           alt=""
           className={`absolute z-0 transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[60px] h-[80px] right-[16rem] top-[6rem] transform-none"
-              : "opacity-[0.3] w-[60px] h-[80px] translate-x-[-420px] translate-y-[0px]"
+              ? "opacity-100 w-[60px] h-[80px] right-[20rem] top-[5rem] transform-none"
+              : "opacity-[0.3] w-[60px] h-[80px] right-[20rem] top-[5rem] translate-x-[-420px] translate-y-[0px]"
           }`}
         />
         <img
@@ -166,8 +168,8 @@ const BottomImages = () => {
           alt=""
           className={`absolute z-0 transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[75px] h-[110px] right-[35rem] top-[5rem] transform-none"
-              : "opacity-[0.1] w-[75px] h-[110px] translate-x-[-280px] translate-y-[150px]"
+              ? "opacity-100 w-[75px] h-[110px] right-[39rem] top-[6rem] transform-none"
+              : "opacity-[0.1] w-[75px] h-[110px] right-[39rem] top-[6rem] translate-x-[-280px] translate-y-[150px]"
           }`}
         />
 
@@ -177,8 +179,8 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[190px] h-[100px] right-[18.1rem] top-[1rem] transform-none"
-              : "w-[190px] h-[100px] translate-x-[-100px] translate-y-[-50px] z-[0]"
+              ? "w-[190px] h-[100px] right-[22.1rem] top-[1rem] transform-none"
+              : "w-[190px] h-[100px] right-[22.1rem] top-[1rem] translate-x-[-100px] translate-y-[-50px] z-[0]"
           }`}
         />
 
@@ -188,8 +190,8 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[170px] h-[110px] right-[25.4rem] top-[7rem] opacity-100 rotate-[360deg] translate-x-[1px] translate-y-[1px]"
-              : "w-[80px] h-[20px] opacity-100 rotate-[20deg] translate-x-[-450px] translate-y-[191px]"
+              ? "w-[170px] h-[110px] right-[29.4rem] top-[7rem] opacity-100 rotate-[360deg] translate-x-[1px] translate-y-[1px]"
+              : "w-[80px] h-[20px] right-[29.4rem] top-[7rem] opacity-100 rotate-[20deg] translate-x-[-450px] translate-y-[191px]"
           }`}
         />
         <img
@@ -197,8 +199,8 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[160px] h-[180px] right-[18.3rem] top-[1rem] opacity-100 rotate-[360deg] translate-x-[2px] translate-y-[3px]"
-              : "w-[80px] h-[20px] opacity-100 rotate-[30deg] translate-x-[-350px] translate-y-[230px] translate-z-[50px]"
+              ? "w-[160px] h-[180px] right-[22.3rem] top-[1rem] opacity-100 rotate-[360deg] translate-x-[2px] translate-y-[3px]"
+              : "w-[80px] h-[20px] right-[22.3rem] top-[1rem] opacity-100 rotate-[30deg] translate-x-[-250px] translate-y-[230px] translate-z-[50px]"
           }`}
         />
         <img
@@ -206,7 +208,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[30px] h-[80px] right-[30rem] top-[9rem] transform-none"
+              ? "w-[30px] h-[80px] right-[34rem] top-[9rem] transform-none"
               : "w-[30px] h-[80px] right-[55rem] top-[5rem] translate-x-[80px] translate-y-[65px]"
           }`}
         />
@@ -217,7 +219,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[30px] h-[60px] right-[32.2rem] top-[7.4rem] transform-none"
+              ? "opacity-100 w-[30px] h-[60px] right-[36.2rem] top-[7.4rem] transform-none"
               : "opacity-[0.2] w-[30px] h-[60px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -226,7 +228,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[30px] h-[60px] right-[27.4rem] top-[7.4rem] transform-none"
+              ? "opacity-100 w-[30px] h-[60px] right-[31.4rem] top-[7.4rem] transform-none"
               : "opacity-[0.2] w-[30px] h-[60px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -235,7 +237,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[30px] h-[60px] right-[24rem] top-[7.4rem] transform-none"
+              ? "opacity-100 w-[30px] h-[60px] right-[28rem] top-[7.4rem] transform-none"
               : "opacity-[0.2] w-[30px] h-[60px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -244,7 +246,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[30px] h-[60px] right-[20.5rem] top-[7.4rem] transform-none"
+              ? "opacity-100 w-[30px] h-[60px] right-[24.5rem] top-[7.4rem] transform-none"
               : "opacity-[0.2] w-[30px] h-[60px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -253,7 +255,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[25px] h-[40px] right-[22.1rem] top-[4.2rem] transform-none"
+              ? "opacity-100 w-[25px] h-[40px] right-[26.1rem] top-[4.2rem] transform-none"
               : "opacity-[0.2] w-[25px] h-[40px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -262,7 +264,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute z-[1] transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "opacity-100 w-[25px] h-[35px] right-[29.2rem] top-[3.65rem] transform-none"
+              ? "opacity-100 w-[25px] h-[35px] right-[33.2rem] top-[3.65rem] transform-none"
               : "opacity-[0.2] w-[25px] h-[35px] translate-x-[-40rem] translate-y-[-8rem]"
           }`}
         />
@@ -273,7 +275,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[200px] h-[140px] right-[22.5rem] top-[-0.2rem] transform-none rotate-[360deg]"
+              ? "w-[200px] h-[140px] right-[26.5rem] top-[-0.2rem] transform-none rotate-[360deg]"
               : "w-[190px] h-[140px] right-[10.5rem] top-[-0.2rem] translate-x-[-55vw] translate-y-[75vh]"
           }`}
         />
@@ -282,7 +284,7 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[85px] h-[140px] right-[26.3rem] top-[-0.37rem] transform-none opacity-100"
+              ? "w-[85px] h-[140px] right-[30.3rem] top-[-0.37rem] transform-none opacity-100"
               : "w-[85px] h-[140px] translate-x-[-600px] translate-y-[250px] opacity-20"
           }`}
         />
@@ -291,31 +293,32 @@ const BottomImages = () => {
           alt=""
           className={`absolute transition-all duration-[2s] ease-in-out ${
             isScrolled
-              ? "w-[90px] h-[170px] right-[19rem] top-[-6.25rem] opacity-100 translate-x-[-7.1rem] translate-y-[63px] rotate-[360deg]"
+              ? "w-[90px] h-[170px] right-[23rem] top-[-6.25rem] opacity-100 translate-x-[-7.1rem] translate-y-[63px] rotate-[360deg]"
               : "w-[90px] h-[170px] right-[10rem] top-[-6.25rem] opacity-10 translate-x-[-1200px] translate-y-[90px] rotate-[360deg]"
           }`}
         />
 
-        <img
-          src={chimney}
-          alt=""
-          className={`absolute transition-all duration-[2s] ease-in-out ${
-            isScrolled
-              ? "w-[25px] h-[25px] opacity-100 right-[23.5rem] top-[0rem] transform-none"
-              : "w-[25px] h-[25px] opacity-20 right-[60rem] top-[-5rem]"
-          }`}
-        />
+<img
+    src={chimney}
+    alt=""
+    className={`absolute transition-all duration-[2s] ease-in-out ${
+      isScrolled
+        ? "w-[25px] h-[25px] opacity-100 right-[27.5rem] top-[0rem] transform-none"
+        : "w-[25px] h-[25px] opacity-20 right-[60rem] top-[-5rem]"
+    }`}
+  />
 
-        {/* -----------Hand Images----------- */}
-        <img
-          src={hand}
-          alt=""
-          className={`absolute transition-all duration-[2s] ease-in-out ${
-            isScrolled
-              ? "opacity-100 z-[2] right-[10rem] top-[2.4rem] w-[470px] h-[400px] transform-none"
-              : "opacity-0 w-[470px] right-[10rem] top-[2.4rem] h-[400px] translate-x-[185%] translate-y-[-45%]"
-          }`}
-        />
+  {/* Hand Image */}
+  <img
+    src={hand}
+    alt=""
+    className={`absolute transition-all duration-[2s] ease-in-out ${
+      isScrolled
+        ? "opacity-100 z-[2] right-[16rem] top-[2.4rem] w-[470px] h-[400px] transform-none"
+        : "opacity-0 w-[470px] h-[400px] right-[15rem] top-[2.4rem] translate-x-[185%] translate-y-[-45%]"
+    }`}
+  />
+
       </div>
     </div>
   );

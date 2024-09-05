@@ -31,9 +31,9 @@ const HomeDown = () => {
             Welcome to To-Let Globe
           </h1>
           <h6
-            className={`absolute transform text-center text-[#c8a21c] font-light transition-all lg:duration-[2000ms] md:duration-[1000ms] sm:duration-[700ms] duration-[500ms]  ease-in-out ${
+            className={`absolute transform text-center text-[#c8a21c] font-light transition-all lg:duration-[2000ms] md:duration-[1000ms] sm:duration-[700ms] duration-[500ms] ease-in-out ${
               isScrolled
-                ? "left-[5%] top-[17rem] lg:left-[8%] lg:top-[15rem] opacity-100"
+                ? "left-[5%] top-[20rem] lg:left-[8%] lg:top-[15rem] opacity-100"
                 : "left-[30%] top-[17rem] lg:top-[15rem] opacity-0"
             } `}
           >
@@ -43,7 +43,7 @@ const HomeDown = () => {
           <div
             className={` absolute transform transition-all lg:duration-[2000ms] md:duration-[1000ms] sm:duration-[700ms] duration-[500ms] ease-in-out w-[20%] ${
               isScrolled
-                ? "left-[5%] w-[20%] top-[42%] lg:top-[53%] lg:w-[33%] opacity-100"
+                ? "left-[5%] w-[20%] top-[82%] lg:top-[53%] lg:w-[33%] opacity-100"
                 : "left-[30%] w-[20%] top-[39%] lg:top-[56%] lg:w-[33%] opacity-0"
             } `}
             id="inputGroup"
@@ -64,7 +64,7 @@ const HomeDown = () => {
           </div>
         </div>
       </div>
-      <BottomBg />
+      <BottomBg/>
     </div>
   );
 };
