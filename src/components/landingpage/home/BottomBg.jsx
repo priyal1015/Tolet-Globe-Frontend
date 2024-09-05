@@ -70,27 +70,27 @@ const BottomImages = () => {
 
   return (
     <div className="-translate-y-[550px] translate-x-[17rem]">
-      <div className="relative bottom-img">
-      <img
-    src={bg1}
-    alt=""
-    className={`absolute opacity-0 transition-all duration-[1s] ease-in-out transform ${
-      isScrolled
-        ? "w-[600px] h-[750px] opacity-[0.2] translate-x-[80%] -translate-y-[18%]"
-        : "w-[600px] h-[750px] translate-x-[560px] translate-y-[-520px]"
-    }`}
-  />
+      <div className="relative bottom-img z-1 max-md:opacity-40 ">
+        <img
+          src={bg1}
+          alt=""
+          className={`absolute opacity-0 transition-all duration-[1s] ease-in-out transform ${
+            isScrolled
+              ? "w-[600px] h-[750px] opacity-[0.2] translate-x-[80%] -translate-y-[18%]"
+              : "w-[600px] h-[750px] translate-x-[560px] translate-y-[-520px]"
+          }`}
+        />
 
-  {/* Background Image 2 */}
-  <img
-    src={bg2}
-    alt=""
-    className={`absolute opacity-0 transition-all duration-[0.5s] ease-in-out ${
-      isScrolled
-        ? "opacity-[0.1] h-[1040px] w-[1050px] z-[-1] translate-x-[20%] -translate-y-[25%]"
-        : "h-[600px] w-[600px] translate-x-[-600px] translate-y-[-300px]"
-    }`}
-  />
+        {/* Background Image 2 */}
+        <img
+          src={bg2}
+          alt=""
+          className={`absolute opacity-0 transition-all duration-[0.5s] ease-in-out ${
+            isScrolled
+              ? "opacity-[0.1] h-[1040px] w-[1050px] z-[-1] translate-x-[20%] -translate-y-[25%]"
+              : "h-[600px] w-[600px] translate-x-[-600px] translate-y-[-300px]"
+          }`}
+        />
 
         {/* ---------- Birds Image ---------- */}
         <img
@@ -298,27 +298,26 @@ const BottomImages = () => {
           }`}
         />
 
-<img
-    src={chimney}
-    alt=""
-    className={`absolute transition-all duration-[2s] ease-in-out ${
-      isScrolled
-        ? "w-[25px] h-[25px] opacity-100 right-[27.5rem] top-[0rem] transform-none"
-        : "w-[25px] h-[25px] opacity-20 right-[60rem] top-[-5rem]"
-    }`}
-  />
+        <img
+          src={chimney}
+          alt=""
+          className={`absolute transition-all duration-[2s] ease-in-out ${
+            isScrolled
+              ? "w-[25px] h-[25px] opacity-100 right-[27.5rem] top-[0rem] transform-none"
+              : "w-[25px] h-[25px] opacity-20 right-[60rem] top-[-5rem]"
+          }`}
+        />
 
-  {/* Hand Image */}
-  <img
-    src={hand}
-    alt=""
-    className={`absolute transition-all duration-[2s] ease-in-out ${
-      isScrolled
-        ? "opacity-100 z-[2] right-[16rem] top-[2.4rem] w-[470px] h-[400px] transform-none"
-        : "opacity-0 w-[470px] h-[400px] right-[15rem] top-[2.4rem] translate-x-[185%] translate-y-[-45%]"
-    }`}
-  />
-
+        {/* Hand Image */}
+        <img
+          src={hand}
+          alt=""
+          className={`absolute transition-all duration-[2s] ease-in-out ${
+            isScrolled
+              ? "opacity-100 z-[2] right-[16rem] top-[2.4rem] w-[470px] h-[400px] transform-none"
+              : "opacity-0 w-[470px] h-[400px] right-[15rem] top-[2.4rem] translate-x-[185%] translate-y-[-45%]"
+          }`}
+        />
       </div>
     </div>
   );
